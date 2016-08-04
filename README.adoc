@@ -1,0 +1,3 @@
+= ClassCastException when using unique constraint on multiple columns
+
+Grails project to investigare issue https://github.com/grails/grails-data-mapping/issues/760
