@@ -1,7 +1,6 @@
 package unique.test
 
 import org.grails.datastore.mapping.core.DatastoreUtils
-import org.grails.datastore.mapping.multitenancy.resolvers.SystemPropertyTenantResolver
 import org.grails.orm.hibernate.HibernateDatastore
 import org.hibernate.Session
 import org.hibernate.dialect.H2Dialect
@@ -10,9 +9,6 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
 import spock.lang.AutoCleanup
 import spock.lang.Shared
 import spock.lang.Specification
-
-import static grails.gorm.multitenancy.Tenants.withId
-import static grails.gorm.multitenancy.Tenants.withoutId
 
 /**
  * Tenant test.
